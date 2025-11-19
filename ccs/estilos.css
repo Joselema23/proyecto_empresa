@@ -1,0 +1,38 @@
+/* Diseño básico */
+body {
+  font-family: Arial, sans-serif;
+  margin: 24px;
+  background-color: #f7f8fb;
+  color: #222;
+}
+
+header h1 {
+  font-size: 32px;
+  margin-bottom: 4px;
+}
+
+.descripcion {
+  font-size: 15px;
+  color: #444;
+}
+
+/* Lista de habilidades con fondo claro y bordes redondeados */
+.lista-habilidades {
+  list-style: disc inside;
+  max-width: 480px;
+  padding: 12px;
+  margin: 12px 0;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+/* Tarjetas de proyecto simples */
+.proyecto {
+  background: #ffffff;
+  padding: 12px;
+  border-radius: 10px;
+  max-width: 600px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  margin-bottom: 12px;
+}
